@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const SPOONACULAR_API_KEY = 'e583f54bad374eea9a169a538d1553e4';
+const SPOONACULAR_API_KEY = import.meta.env.VITE_SPOONACULAR_API_KEY;
 const SPOONACULAR_BASE_URL = 'https://api.spoonacular.com/recipes';
 const LOCAL_BASE_URL = 'http://localhost:3001';
 

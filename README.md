@@ -97,9 +97,13 @@ npm install
 ```
 
 3. **Environment Setup**
-The Spoonacular API key is currently hardcoded in `src/services/api.js`. For production, create a `.env` file: 
+Copy the example environment file and add your Spoonacular API key:
+```bash
+cp .env.example .env
+```
+Then open `.env` and replace `your_spoonacular_api_key_here` with your key. You can get a free key at https://spoonacular.com/food-api.
 ```env
-VITE_SPOONACULAR_API_KEY=your_api_key_here
+VITE_SPOONACULAR_API_KEY=your_spoonacular_api_key_here
 ```
 
 4. **Run the application**
